@@ -60,7 +60,7 @@ python chat.py                 # interactive chat
 A modern dark chat interface with suggested questions, streaming answers, and a
 mobile-friendly layout. Start the server and open <http://localhost:8000>.
 
-*(Add a screenshot here once you've run it — `![screenshot](docs/screenshot.png)`.)*
+
 
 ## 🛠️ Configuration
 
