@@ -1,10 +1,10 @@
 # 📄 Resume RAG Bot
 
-A **Retrieval-Augmented Generation** chatbot that answers questions about a résumé —
+A **Retrieval-Augmented Generation** chatbot that answers questions about a Resume —
 with a clean web UI. Built from scratch (no LangChain) so every piece is easy to follow.
 
 Ask *"What are her machine learning skills?"* and get an answer grounded in the actual
-résumé, not made up.
+Resume, not made up.
 
 ```
 PDF → chunk → embed → store → retrieve → Claude → answer
