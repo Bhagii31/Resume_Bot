@@ -74,16 +74,3 @@ Tweak these constants if results feel off:
 
 `pdfplumber` · `sentence-transformers` · `chromadb` · `anthropic` · `fastapi` · `uvicorn`
 
-## ⚠️ Troubleshooting
-
-- **"This PDF is corrupted"** — the file's binary content was mangled in transfer
-  (often by copy-pasting or a text-mode download). Re-export it from Word/Google Docs
-  straight to disk, or download the original attachment, then run `add_resume.py` again.
-- **"Almost no text could be extracted"** — the PDF is a scan (image-only). It needs
-  OCR; `pip install pytesseract pdf2image` and `brew install tesseract` (or
-  `apt-get install tesseract-ocr`), then OCR the file before indexing.
-- **"ANTHROPIC_API_KEY is not set"** — export it (step 3 above).
-
-## 📝 License
-
-MIT — feel free to use and adapt.
