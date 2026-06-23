@@ -32,7 +32,7 @@ PDF → chunk → embed → store → retrieve → Claude → answer
 The browser never sees your API key — it only talks to your own `/api/chat` endpoint,
 which holds the key server-side.
 
-## 🚀 Quickstart
+##  Quickstart
 
 ```bash
 # 1. Install dependencies (use a virtualenv)
@@ -53,7 +53,7 @@ python chat.py "what are her main skills?"
 python chat.py                 # interactive chat
 ```
 
-> **Note:** the first run downloads the MiniLM embedding model (~80 MB), then caches it.
+
 
 ## 🖼️ Web UI
 
