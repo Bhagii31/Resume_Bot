@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask About Bhargavi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <div>
+          <h1>Ask About Bhargavi</h1>
+          <p class="subtitle">Curious about Bhargavi? Just ask.</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Chat transcript -->
+    <main id="chat" class="chat">
+      <div class="welcome" id="welcome">
+        <div class="welcome-icon">💬</div>
+        <h2>Know anything about Bhargavi?</h2>
+        <p>Ask away — every answer comes straight from her résumé.</p>
+        <div class="chips" id="chips">
+          <button class="chip">What are Bhargavi's skills?</button>
+          <button class="chip">Where has she worked?</button>
+          <button class="chip">What projects has she built?</button>
+          <button class="chip">Where did she study?</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Composer -->
+    <footer class="composer">
+      <form id="form" class="composer-inner">
+        <textarea
+          id="input"
+          rows="1"
+          placeholder="Ask about Bhargavi…"
+          autocomplete="off"
+        ></textarea>
+        <button id="send" type="submit" title="Send" aria-label="Send">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path fill="currentColor" d="M3.4 20.4l17.45-7.48a1 1 0 000-1.84L3.4 3.6a1 1 0 00-1.39 1.18L4.2 11 13 12l-8.8 1-2.19 6.22a1 1 0 001.39 1.18z" />
+          </svg>
+        </button>
+      </form>
+      <p class="hint">Press <kbd>Enter</kbd> to send · <kbd>Shift</kbd>+<kbd>Enter</kbd> for a new line</p>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
